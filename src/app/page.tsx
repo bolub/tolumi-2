@@ -1,4 +1,5 @@
 import { roboto_mono } from "@/fonts";
+import { Socials } from "./Socials";
 
 export default function Home() {
   return (
@@ -9,9 +10,7 @@ export default function Home() {
       }}
     >
       <div className="m-auto w-full max-w-[1100px] flex flex-col items-center">
-        <h1 className="uppercase font-extrabold text-xl tracking-[2px]">
-          Tolumi
-        </h1>
+        <h1 className="uppercase font-bold text-xl tracking-[2px]">Tolumi</h1>
 
         <p
           className={`${roboto_mono.className} text-4xl md:text-9xl mt-8 md:mt-20 leading-loose`}
@@ -19,10 +18,14 @@ export default function Home() {
           We will be back soon
         </p>
 
-        <p className="text-lg md:text-3xl max-w-[650px] mt-5 md:mt-20 font-light tracking-wide">
+        <p
+          className={`text-lg md:text-3xl max-w-[650px] mt-5 md:mt-20 font-light tracking-wide`}
+        >
           We are currently making big changes in our brand and will be back with
-          a fresh new Tolumi TFP
+          a fresh new Tolumi TFP!
         </p>
+
+        <Socials />
       </div>
     </main>
   );

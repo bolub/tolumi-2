@@ -1,6 +1,6 @@
-import { Manrope, Playfair_Display } from "next/font/google";
+import { Montserrat, Playfair_Display } from "next/font/google";
 
-export const inter = Manrope({
+export const inter = Montserrat({
   subsets: ["latin"],
   display: "swap",
 });
