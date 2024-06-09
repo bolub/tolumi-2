@@ -10,7 +10,9 @@ export default function Home() {
       }}
     >
       <div className="m-auto w-full max-w-[1100px] flex flex-col items-center">
-        <h1 className="uppercase font-bold text-xl tracking-[2px]">Tolumi</h1>
+        <h1 className="uppercase font-semibold text-lg md:text-xl tracking-[2px]">
+          Tolumi
+        </h1>
 
         <p
           className={`${roboto_mono.className} text-4xl md:text-9xl mt-8 md:mt-20 leading-loose`}
